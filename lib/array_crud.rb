@@ -30,7 +30,11 @@ def retrieve_first_element_from_array(array)
   return array[0]
 end
 
+# def retrieve_last_element_from_array(array)
+#   i = array.length - 1
+#   return array[i]
+# end
+
 def retrieve_last_element_from_array(array)
-  i = array.length - 1
-  return array[i]
+  return array[-1]
 end
