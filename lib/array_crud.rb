@@ -2,15 +2,15 @@ def create_an_empty_array
   []
 end
 
-def create_an_array(one="one", two="two", three="three", four="four")
-  [one, two, three, four]
+def create_an_array
+  [1,2,3,4]
 end
 
-def add_element_to_end_of_array(array=[], element="Default element to add to array")
-  array << element
+def add_element_to_end_of_array(array=[], element)
+  array.push element
 end
 
-def add_element_to_start_of_array(array=[], element="Default element to add to array")
+def add_element_to_start_of_array(array=[], element)
   array.unshift element
 end
 
@@ -22,14 +22,14 @@ def remove_element_from_start_of_array(array)
   array.shift
 end
 
-def retrieve_element_from_index(array, index_number)
-  array[index_number]
-end
-
-def retrieve_first_element_from_array(array)
-  array.first
+def retrieve_element_from_index(array, array_index_number)
+  array[array_index_number]
 end
 
 def retrieve_last_element_from_array(array)
   array.last
+end
+
+def retrieve_first_element_from_array(array)
+  array.first
 end
