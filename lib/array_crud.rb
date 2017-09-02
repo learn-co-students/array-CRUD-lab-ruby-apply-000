@@ -1,5 +1,5 @@
 def create_an_empty_array
-  [ ]
+empty = [ ]
 end
 
 def create_an_array
@@ -12,13 +12,14 @@ array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-words = ["wonderful", "yay!", "amazing"]
-words.unshift("wow")
+array = ["wonderful", "yay!", "amazing"]
+array.unshift("wow")
 end
+
 
 def remove_element_from_end_of_array(array)
 array = ["methods", "loops", "if_statements", "arrays!"]
-learn = array.pop
+ruby = array.pop
 end
 
 def remove_element_from_start_of_array(array)
