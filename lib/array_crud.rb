@@ -1,5 +1,5 @@
 def create_an_empty_array
- Lab = Array []
+ Lab =Array []
   
 end
 
