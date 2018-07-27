@@ -5,7 +5,7 @@ def create_an_empty_array
 end
 
 def create_an_array
- array =["Andy","Katy","John","Rachel"]
+ array = ["Andy","Katy","John","Rachel"]
 
  array << "arrays!"
  
