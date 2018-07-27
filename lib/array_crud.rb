@@ -5,7 +5,7 @@ def create_an_empty_array
 end
 
 def create_an_array
- name =["Andy","Katy","John","Rachel"]
+ array =["Andy","Katy","John","Rachel"]
 end
 
 def add_element_to_end_of_array(array, element)
