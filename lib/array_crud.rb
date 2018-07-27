@@ -6,7 +6,7 @@ end
 
 def create_an_array
  array =["Andy","Katy","John","Rachel"]
- element ="array!"
+
  array << "arrays!"
  
 end
