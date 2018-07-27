@@ -7,10 +7,10 @@ end
 def create_an_array
  array = ["Andy","Katy","John","Rachel"]
 
- 
 end
 
 def add_element_to_end_of_array(array, element)
+  array >> "arrays!"
   
   
 end
