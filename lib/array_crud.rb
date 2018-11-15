@@ -1,9 +1,9 @@
 def create_an_empty_array
-  arr = []
+  []
 end
 
 def create_an_array
-  arr = %w(chia hemp sunflower pumpkin)
+  %w(chia hemp sunflower pumpkin)
 end
 
 def add_element_to_end_of_array(array, element)
