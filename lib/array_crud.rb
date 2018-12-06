@@ -4,7 +4,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Beer","Burger","Buffalo Wings","Butts"]
+  ["Beer","Burger","Buffalo Wings","Fries"]
   
 end
 
