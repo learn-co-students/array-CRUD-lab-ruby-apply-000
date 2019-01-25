@@ -1,12 +1,14 @@
-def create_an_empty_array
+def create_an_empty_array []
   
 end
 
-def create_an_array
+def create_an_array [tv, shopping, eating, social media]
   
 end
 
 def add_element_to_end_of_array(array, element)
+  puts array << element
+  
   
 end
 
