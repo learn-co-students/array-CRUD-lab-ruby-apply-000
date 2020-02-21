@@ -1,74 +1,64 @@
-require "spec_helper"
 
-describe "#create_an_empty_array" do
-  it "creates and returns and empty array" do 
-    expect(create_an_empty_array).to eq([])
-  end 
+
+
+
+def create_an_empty_array
+  array=[]
+end
+p create_an_empty_array
+
+
+def friends
+  friends= ["james","john","mike", "joe"]
+  
+end
+p friends
+
+
+def friends  #add_element_to_end_of_array(array, element)
+  friends= ["james","john","mike", "joe"]
+  friends.push("boris")
+end
+p friends
+
+
+def friends  #add_element_to_start_of_array(array, element)
+  friends= ["james","john","mike", "joe"]
+  friends.unshift("christ")
 end
 
-describe "create_an_array" do 
-  it "creates an array with four elements" do 
-    expect(create_an_array).to be_a(Array)
-    expect(create_an_array.size).to eq(4)
-  end
+p friends
+
+
+def friends  #remove_element_from_end_of_array(array)
+  friends= ["james","john","mike", "joe"]
+  friends.pop
 end
 
-describe "add_element_to_end_of_array" do 
-  it "takes arguments of an array and an element and adds that element to the end of the array" do 
-    array = ["wow", "I", "am", "really", "learning"]
-    element = "arrays!"
-    expect(add_element_to_end_of_array(array, element).last).to eq("arrays!")
-  end
+p friends
+
+
+def friends  #remove_element_from_start_of_array(array)
+  friends= ["james","john","mike", "joe"]
+  friends.shift
+end
+p friends
+
+def friends #retrieve_element_from_index(array, index_number)
+  friends= ["james","john","mike", "joe"]
+  friends[1]
+end
+p friends
+
+def friends #retrieve_first_element_from_array(array)
+  friends= ["james","john","mike", "joe"]
+  friends[0]
+end
+p friends
+
+def freinds #retrieve_last_element_from_array(array)
+  freinds= ["james","john","mike", "joe"]
+  friends[-1]
 end
 
-describe "add_element_to_start_of_array" do 
-  it "takes arguments of an array and an element and adds that element to the start of the array" do 
-    array = ["I", "am", "really", "learning"]
-    element = "wow"
-    expect(add_element_to_start_of_array(array, element).first).to eq("wow")
-  end
-end
-
-describe "remove_element_from_end_of_array" do 
-  it "takes in an argument of an array and removes the last element in the array" do 
-    array = ["I", "am", "really", "learning", "arrays!"]
-    expect(remove_element_from_end_of_array(array)).to eq("arrays!")
-  end
-end
-
-describe "remove_element_from_start_of_array" do 
-  it "takes in an argument of an array and removes the first element from the array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(remove_element_from_start_of_array(array)).to eq("wow")
-  end
-end
-
-describe "retrieve_element_from_index" do 
-  it "takes in an argument of an array and an index number and returns the element stored at that index" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    index_number = 2
-    expect(retrieve_element_from_index(array, 2)).to eq("am")
-  end
-end
-
-describe "retrieve_first_element_from_array" do 
-  it "takes in an argument of an array and returns the first element stored in the array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(retrieve_first_element_from_array(array)).to eq("wow")
-  end
-end
-
-describe "retrieve_last_element_from_array" do 
-  it "takes in an argument of an array and returns the last element of that array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(retrieve_last_element_from_array(array)).to eq("arrays!")
-  end
-end
-
-
-
-
-
-
-
-
+p friends
